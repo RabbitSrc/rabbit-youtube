@@ -6,7 +6,7 @@ python:
 install: "pip install -r requirements.txt"
 
 # command to run tests
-script: nosetests
+script: nosetests rabbit_youtube/tests/test_youtube_api.py
 branches:
   only:
     - master
