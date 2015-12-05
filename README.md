@@ -19,11 +19,11 @@ Please note you'll need to have a google API key (Browser key) to use this appli
 # run rabbit-youtube: 
 > rabbit-youtube.py
 
-# specify the Google API key
-you may get a free Google API key (Browser key) from: https://console.developers.google.com 
-the key will stored in your home folder ~/.rabbit_youtube/config.py:
-> rabbit-youtube.py <br />
-> no config file found, please input your google api key:
+you'll need to specify the Google API key for the first time. you may get a free Google API key (Browser key) from: https://console.developers.google.com <br /> 
+the key will be stored in your home folder ~/.rabbit_youtube/config.py:
+
+> no config file found, please input your google api key: <br />
+> // input your key
 
 # download files: <br />
 download all videos uploaded by the specified user: 
