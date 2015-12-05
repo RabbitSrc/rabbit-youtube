@@ -54,11 +54,11 @@ class TestPytube(unittest.TestCase):
 
         self.assertEqual('3gp', video.extension)
 
-        # file_path = '/tmp/rabbit_youtube_test.%s' % video.extension
-        #
-        # video.download(file_path)
-        # self.assertTrue(os.path.isfile(file_path))
-        # os.remove(file_path)
+        current_folder = os.path.dirname(os.path.realpath(__file__))
+        file_path = os.path.join(current_folder, 'rabbit_youtube_test.%s' % video.extension)
+        video.download(file_path)
+        self.assertTrue(os.path.isfile(file_path))
+        os.remove(file_path)
 
 if __name__ == '__main__':
     unittest.main()

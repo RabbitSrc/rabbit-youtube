@@ -4,7 +4,7 @@ import logging
 import unittest
 from rabbit_youtube import youtube_utils, app_config
 
-key = app_config.get_google_api_key()
+key = 'AIzaSyCYzucSKQxHcC88_k39VRYqpzG0kHMb4Ag'
 
 
 class TestRabbitYoutube(unittest.TestCase):
