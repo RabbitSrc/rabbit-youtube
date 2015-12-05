@@ -25,7 +25,7 @@ the key will be stored in your home folder ~/.rabbit_youtube/config.py:
 > no config file found, please input your google api key: <br />
 > // input your key
 
-# download files: <br />
+# download videos: <br />
 download all videos uploaded by the specified user: 
 > rabbit-youtube.py -p PLyPg0ySdyY2b4EbCZFdGUScU1xC3RjkXo ~/tmp-test
 
