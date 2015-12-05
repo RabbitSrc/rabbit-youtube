@@ -1,5 +1,7 @@
 # README #
 
+[![Build Status](https://travis-ci.org/guoliang-dev/rabbit-youtube.svg)](https://travis-ci.org/guoliang-dev/rabbit-youtube)
+
 A utility to download youtube videos by user_id / playlist_id. 
 
 Please note you'll need to have a google API key (Browser key) to use this application, you may get a key from: https://console.developers.google.com
