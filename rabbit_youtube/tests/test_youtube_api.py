@@ -6,7 +6,7 @@ from pytube import YouTube
 from rabbit_youtube import app_config
 
 
-key = app_config.get_google_api_key()
+key = 'AIzaSyCYzucSKQxHcC88_k39VRYqpzG0kHMb4Ag'
 
 
 class TestYoutubeAPI(unittest.TestCase):
@@ -52,11 +52,13 @@ class TestPytube(unittest.TestCase):
 
         video = youtube.get_videos()[0]  # get_best_video(youtube)
 
-        file_path = '/tmp/rabbit_youtube_test.%s' % video.extension
+        self.assertEqual('3gp', video.extension)
 
-        video.download(file_path)
-        self.assertTrue(os.path.isfile(file_path))
-        os.remove(file_path)
+        # file_path = '/tmp/rabbit_youtube_test.%s' % video.extension
+        #
+        # video.download(file_path)
+        # self.assertTrue(os.path.isfile(file_path))
+        # os.remove(file_path)
 
 if __name__ == '__main__':
     unittest.main()
