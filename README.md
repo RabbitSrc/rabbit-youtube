@@ -4,13 +4,13 @@
 
 A utility to download youtube videos by user_id / playlist_id. 
 
-Please note you'll need to have a google API key (Browser key) to use this application, you may get a key from: https://console.developers.google.com
+Please note that you'll need to have a google API key (Browser key) to use this application, you may get a key from: https://console.developers.google.com
 
-### main Features ###
+### main features ###
 
-* download all videos uploaded by the given user id
-* download all videos in the given playlist
-* skip the downloaded files
+* download all videos uploaded by user id
+* download all videos by playlist
+* skip the previously downloaded files
 
 
 ### how to use it ###
@@ -28,12 +28,12 @@ the key will be stored in your home folder ~/.rabbit_youtube/config.py:
 > // input your key
 
 # download videos: <br />
-download all videos uploaded by the specified user: 
+download all videos uploaded by user id: 
 > rabbit-youtube.py -p PLyPg0ySdyY2b4EbCZFdGUScU1xC3RjkXo ~/tmp-test
 
-download all videos in the specified playlist: 
+download all videos by playlist id: 
 > rabbit-youtube.py -u GoogleDevelopers ~/tmp-test
 
 ### how it works###
-* rabbit-youtube uses google api to retrieve the videos from youtube by the given user_id or playlist_id; that's why we need a google api key. 
-* rabbit-youtube uses pytube(https://github.com/nficano/pytube) to get the detail and / download the video by the video id. 
+* rabbit-youtube uses google api to retrieve the videos from youtube by user_id or playlist_id; // that's why we need a google api key. 
+* rabbit-youtube uses pytube(https://github.com/nficano/pytube) to get the detail and download the video by the video id. 
