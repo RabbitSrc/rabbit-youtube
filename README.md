@@ -1,6 +1,6 @@
 # README #
 
-[![Build Status](https://travis-ci.org/guoliang-dev/rabbit-youtube.svg)](https://travis-ci.org/guoliang-dev/rabbit-youtube)
+[![Build Status](https://travis-ci.org/guoliang-dev/rabbit-youtube.svg)](https://travis-ci.org/guoliang-dev/rabbit-youtube) [![PyPI version](https://badge.fury.io/py/rabbit-youtube.svg)](https://badge.fury.io/py/rabbit-youtube)
 
 A utility to download youtube videos by user id / playlist id. 
 
