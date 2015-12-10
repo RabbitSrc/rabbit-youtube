@@ -7,7 +7,6 @@ from rabbit_youtube import youtube_utils
 
 
 def main():
-    print 'main...'
     parser = argparse.ArgumentParser(description='Passing parameter for rabbit youtube....')
 
     parser.add_argument('--youtube_user_id', '-u', help='youtube user id')
@@ -32,7 +31,7 @@ def main():
 
 if __name__ == '__main__':
     log_format = "%(asctime)s [%(name)s] [%(levelname)-5.5s]  %(message)s"
-    logging.basicConfig(level=logging.DEBUG,
+    logging.basicConfig(level=logging.INFO,
                         format=log_format,
                         datefmt="%H:%M:%S", filemode='a')
     consoleHandler = logging.StreamHandler()

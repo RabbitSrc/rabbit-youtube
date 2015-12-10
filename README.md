@@ -14,25 +14,7 @@ Please note that you'll need to have a google API key (Browser key) to use this 
 
 
 ### how to use it ###
-
-#### install via pip: 
-> pip install rabbit-youtube 
-
-#### run rabbit-youtube: 
-> rabbit-youtube.py
-
-you'll need to specify the Google API key for the first time. you may get a free Google API key (Browser key) from: https://console.developers.google.com <br /> 
-the key will be stored in your home folder ~/.rabbit_youtube/config.py:
-
-> no config file found, please input your google api key: <br />
-> // input your key
-
-#### download videos: <br />
-download all videos uploaded by user id: 
-> rabbit-youtube.py -p PLyPg0ySdyY2b4EbCZFdGUScU1xC3RjkXo ~/tmp-test
-
-download all videos by playlist id: 
-> rabbit-youtube.py -u GoogleDevelopers ~/tmp-test
+http://guoliang-dev.github.io/rabbit-youtube/
 
 ### how it works###
 * rabbit-youtube uses google api to retrieve the videos from youtube by user_id or playlist_id; // that's why we need a google api key. 
